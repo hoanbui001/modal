@@ -1,0 +1,36 @@
+.md{
+  display: none;
+  position:fixed;
+  top: 0;
+  right: 0;
+  z-index:1;
+  padding-top: 100px;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+.md-content{
+  background-color:#fefefe;
+  padding:20px;
+  border:1px solid black;
+  width:80%;
+  margin:auto;
+}
+.md .close{
+  float:right;
+  color: black;
+  font-size:20px;
+  font-weight:bold;
+
+}
+.md .p{
+  font-size: 28px;
+}
+.close:hover {
+  cursor:pointer;
+  
+}
+.show{
+  display:block;
+}
